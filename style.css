@@ -1,24 +1,24 @@
 html{
     scroll-behavior: smooth;
 }
+
 .back-to-top {
     position: fixed;
     bottom: 20px;
     right: 20px;
     background: #14bf98;
+    border: 2px solid #14BF98;
     color: white;
     font-size: 24px;
     padding: 10px 15px;
     border-radius: 50%;
     text-decoration: none;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
     transition: all 0.3s ease-in-out;
 }
 
 .back-to-top:hover {
-    background: #0fa080;
+    background-color: transparent;
 }
-
 
 *{
     margin: 0;
@@ -70,9 +70,11 @@ header ul a{
 }
 header ul a:hover{
     color: #14bf98;
+    font-weight: 700;
 }
 header ul  li > .active{
     color: #14BF98;
+    font-weight: 700;
 }
 
 
